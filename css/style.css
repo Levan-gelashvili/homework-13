@@ -1,0 +1,149 @@
+body {
+  background: #fff;
+}
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+h5 {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 57px;
+}
+h2 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 371px;
+  margin-top: 10px;
+}
+.s1 {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+form {
+  margin-top: 60px;
+  display: flex;
+}
+.textrea {
+  width: 756px;
+  height: 298px;
+  display: flex;
+}
+textarea {
+  width: 756px;
+  height: 298px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  resize: none;
+  display: flex;
+}
+.inpt {
+  width: 370px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input {
+  width: 370px;
+  height: 59px;
+  margin-left: 30px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  display: flex;
+}
+button {
+  width: 370px;
+  height: 59px;
+  margin-left: 30px;
+  flex-shrink: 0;
+  background: #5968f4;
+  color: #fbfbff;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.myflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.email {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #5968f4;
+}
+.phone {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #5968f4;
+}
+.s2 {
+  display: flex;
+  justify-content: space-around;
+}
+.location {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #5968f4;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+h4 {
+  color: #4e4d54;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p,
+a {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  width: 200px;
+  text-align: center;
+}
