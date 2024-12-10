@@ -24,6 +24,17 @@ h2 {
   width: 371px;
   margin-top: 10px;
 }
+h3 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 548px;
+  margin-top: 10px;
+  margin-bottom: 55px;
+}
 .s1 {
   margin-bottom: 50px;
   display: flex;
@@ -31,11 +42,6 @@ h2 {
 }
 form {
   margin-top: 60px;
-  display: flex;
-}
-.textrea {
-  width: 756px;
-  height: 298px;
   display: flex;
 }
 textarea {
@@ -114,6 +120,7 @@ button {
 .s2 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 99px;
 }
 .location {
   width: 68px;
@@ -146,4 +153,13 @@ a {
 .text {
   width: 200px;
   text-align: center;
+}
+.im {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+footer {
+  background: #000;
+  height: 372px;
 }
